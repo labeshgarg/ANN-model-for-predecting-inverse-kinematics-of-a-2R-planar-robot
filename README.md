@@ -53,9 +53,3 @@ Feel free to fork this project, submit pull requests, or send suggestions to imp
 Special thanks to [Major Sarkar] for guidance and support in this project.
 
 
-
-
-
-
-
-<img width="709" alt="image" src="https://github.com/labeshgarg/ANN-model-for-predecting-inverse-kinematics-of-a-2R-planar-robot/assets/102824517/f72db257-6d59-45bf-9e3e-14aeb9679ae6">
