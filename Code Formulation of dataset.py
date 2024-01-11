@@ -34,7 +34,7 @@ endEffectorPositions = np.array(endEffectorPositions)
 df = pd.DataFrame(endEffectorPositions, columns=['X', 'Y', 'Theta1_deg', 'Theta2_deg'])
 
 # Define the file path for saving the CSV
-output_file_path = '/Volumes/Everything else/IITG/ML project/My/mydataset2.csv'
+output_file_path = '/mydataset.csv'
 
 # Save the DataFrame to a CSV file
 df.to_csv(output_file_path, index=False)
