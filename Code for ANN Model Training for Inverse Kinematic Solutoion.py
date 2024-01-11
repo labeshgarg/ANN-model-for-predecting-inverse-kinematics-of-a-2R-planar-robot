@@ -30,12 +30,12 @@ X_test_scaled = scaler_X.transform(X_test)
 # Build the ANN model with increased complexity and dropout
 model = Sequential()
 model.add(Dense(128, input_dim=2, activation='relu'))
-model.add(Dropout(0.2))  # Dropout layer to mitigate overfitting
+model.add(Dropout(0.2))  
 model.add(Dense(128, activation='relu'))
-model.add(Dropout(0.2))  # Dropout layer to mitigate overfitting
+model.add(Dropout(0.2)) 
 model.add(Dense(64, activation='relu'))
 model.add(Dense(64, activation='relu'))
-model.add(Dense(2, activation='linear'))  # Two outputs for Theta1 and Theta2
+model.add(Dense(2, activation='linear')) 
 
 # Compile the model
 model.compile(loss='mean_squared_error', optimizer='adam')
@@ -51,7 +51,7 @@ print(f'Mean Squared Error on Testing Data: {loss}')
 predictions = model.predict(X_test_scaled)
 
 # Display some predictions and actual values
-for i in range(5):  # Display the first 5 predictions
+for i in range(5):  
     print(f"Prediction {i + 1}: X={X_test[i][0]:.2f}, Y={X_test[i][1]:.2f} -> Predicted Theta1={predictions[i][0]:.2f}, Predicted Theta2={predictions[i][1]:.2f} (Actual Theta1={y_test[i][0]:.2f}, Actual Theta2={y_test[i][1]:.2f})")
 
 # Calculate the error (difference) between actual theta values and predicted theta values
