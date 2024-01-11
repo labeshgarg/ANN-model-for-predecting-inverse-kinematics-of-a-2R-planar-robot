@@ -50,6 +50,6 @@ Feel free to fork this project, submit pull requests, or send suggestions to imp
 
 ### Acknowledgements
 
-Special thanks to [Major Sarkar] for guidance and support in this project.
+Special thanks to Major KP Sarkar, co-author of the project for guidance and support in this project.
 
 
