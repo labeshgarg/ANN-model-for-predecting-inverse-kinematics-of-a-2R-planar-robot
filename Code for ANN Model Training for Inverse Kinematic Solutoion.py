@@ -10,7 +10,7 @@ from tensorflow.keras.layers import Dense, Dropout
 import matplotlib.pyplot as plt
 
 #Load the dataset
-dataset_path = '/Volumes/Everything else/IITG/ML project/My/mydataset2.csv'
+dataset_path = '/mydataset.csv'
 data = pd.read_csv(dataset_path)
 
 # Extract input features (X, Y)
